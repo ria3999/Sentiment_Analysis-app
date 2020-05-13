@@ -51,4 +51,4 @@ def result():
     return render_template('ria.html',text=text,sentiment=sentiment,probability=probability,image=img_filename)
 
 if __name__=="__main__":
-    app1.run(debug=True)
+    app1.run()
