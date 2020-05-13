@@ -11,14 +11,14 @@ from tensorflow.keras.preprocessing import sequence
 from tensorflow.keras.models import load_model
 
 
-IMAGE_FOLDER=os.path.join("C:\\programs\\static","C:\\programs\\static\\img_pool")
+IMAGE_FOLDER=os.path.join("static","img_pool")
 
 
 app1=Flask(__name__)
 app1.config['UPLOAD FOLDER']=IMAGE_FOLDER
 
 
-model=load_model("C:\\programs\\final1_model.h5")
+model=load_model("final1_model.h5")
    
 
 
