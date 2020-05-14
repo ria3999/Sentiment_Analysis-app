@@ -51,4 +51,4 @@ def result():
     return render_template('ria.html',text=text,sentiment=sentiment,probability=probability,image=img_filename)
 
 if __name__=="__main__":
-    app1.run()
+    app1.run(host='0.0.0.0', port=os.environ.get('PORT', 80))
