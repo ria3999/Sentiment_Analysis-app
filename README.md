@@ -3,3 +3,6 @@ the result on the same page itself.In this project I have used a LSTM based deep
 sentiment and probability associated with that sentiment. This model is used as a back-end to this application. 
 I have used IMDB dataset to train my deep learning model.
 
+My web app looks like-
+
+<img width="959" alt="app" src="https://user-images.githubusercontent.com/50037717/96793824-b434da80-141a-11eb-8467-db2f6fd4f820.png">
